@@ -53,7 +53,7 @@ function displayHomeTab () {
     main.appendChild(header);
 
     const tobey = document.createElement("img");
-    tobey.setAttribute("src","/source/tobey.png");
+    tobey.setAttribute("src","./source/tobey.png");
     main.appendChild(tobey);
 }
 

@@ -22,13 +22,13 @@ function displayMenuTab () {
     menuContainer.appendChild(hawaii);
 
     const margheritaImg = document.createElement("img");
-    margheritaImg.setAttribute("src","/source/margherita.jpg");
+    margheritaImg.setAttribute("src","./source/margherita.jpg");
 
     const pepperoniImg = document.createElement("img");
-    pepperoniImg.setAttribute("src","/source/pepperoni.jpg");
+    pepperoniImg.setAttribute("src","./source/pepperoni.jpg");
 
     const hawaiiImg = document.createElement("img");
-    hawaiiImg.setAttribute("src","/source/hawaii.jpg");
+    hawaiiImg.setAttribute("src","./source/hawaii.jpg");
 
     margherita.appendChild(margheritaImg);
     pepperoni.appendChild(pepperoniImg);
